@@ -26,7 +26,7 @@ export default defineConfig([
     rules: {
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
-      "semi": ["error", "never"], // marca erro se tiver ; no final e permite --fix
+      "semi": ["error", "never"],
 
     },
   },
